@@ -1,0 +1,75 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #fff5fa;
+}
+
+/* Navbar */
+.bg-pink {
+  background-color: #ffb6c1 !important;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-size: 1.4rem;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+  color: #ff69b4 !important;
+}
+
+/* Header */
+.cute-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ff69b4;
+  text-shadow: 2px 2px 5px rgba(255, 182, 193, 0.6);
+}
+
+/* Menu Cards */
+.menu-item {
+  background-color: #fff;
+  border: 2px solid #ffc0cb;
+  border-radius: 20px;
+  box-shadow: 0px 3px 8px rgba(255, 105, 180, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 15px rgba(255, 105, 180, 0.5);
+}
+
+.menu-item h2 {
+  color: #ff4081;
+  font-weight: 700;
+}
+
+.menu-item p {
+  color: #444;
+  font-size: 1rem;
+}
+
+/* Sweet Modal */
+.sweet-modal {
+  border-radius: 20px;
+  border: 3px solid #ffc0cb;
+  background-color: #fff0f6;
+}
+
+.modal-title {
+  color: #ff69b4;
+  font-weight: 700;
+}
+
+.modal-body h6 {
+  color: #d63384;
+  font-weight: bold;
+}
